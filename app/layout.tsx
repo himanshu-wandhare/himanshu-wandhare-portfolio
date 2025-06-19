@@ -10,6 +10,8 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
     title: `${SITE_CONFIG.name} - ${SITE_CONFIG.title}`,
     description: SITE_CONFIG.description,
+    authors: [{ name: SITE_CONFIG.name }],
+    robots: "index, follow",
     other: {
         "google-site-verification":
             "El1c2fjsv7jF1BGWfKXdISsilUhQ2WEieCpljtxwM8o",
