@@ -154,21 +154,31 @@ export function ProjectsSection() {
                                                 {project.description}
                                             </p>
                                             <div className="flex gap-3">
-                                                <Button
-                                                    size="sm"
-                                                    className="group"
+                                                <a
+                                                    target="_blank"
+                                                    href={project.links.live}
                                                 >
-                                                    <ExternalLink className="w-4 h-4 mr-2 group-hover:animate-pulse" />
-                                                    View Project
-                                                </Button>
-                                                <Button
-                                                    size="sm"
-                                                    variant="outline"
-                                                    className="group"
+                                                    <Button
+                                                        size="sm"
+                                                        className="group"
+                                                    >
+                                                        <ExternalLink className="w-4 h-4 mr-2 group-hover:animate-pulse" />
+                                                        View Project
+                                                    </Button>
+                                                </a>
+                                                <a
+                                                    target="_blank"
+                                                    href={project.links.github}
                                                 >
-                                                    <Github className="w-4 h-4 mr-2 group-hover:rotate-12 transition-transform" />
-                                                    Source Code
-                                                </Button>
+                                                    <Button
+                                                        size="sm"
+                                                        variant="outline"
+                                                        className="group"
+                                                    >
+                                                        <Github className="w-4 h-4 mr-2 group-hover:rotate-12 transition-transform" />
+                                                        Source Code
+                                                    </Button>
+                                                </a>
                                             </div>
                                         </div>
                                     ))}

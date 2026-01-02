@@ -17,7 +17,7 @@ export const PROJECTS = [
         title: "PrepWise – AI-Powered Job Interview Preparation Platform",
         description:
             "A powerful AI-driven platform designed to help you master job interviews with confidence. Conduct mock interviews with a smart voice assistant, receive real-time feedback, and track your progress — all in one seamless experience.",
-        image: "https://images.pexels.com/photos/196645/pexels-photo-196645.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        image: "/prepwise.png",
         tags: [
             "Next.js",
             "Firebase",
@@ -37,7 +37,7 @@ export const PROJECTS = [
         title: "CarePulse - Healtcare Application",
         description:
             "A healthcare patient management application that allows patients to easily register, book, and manage their appointments with doctors, featuring administrative tools for scheduling, confirming, and canceling appointments, along with SMS notifications, all built using Next.js.",
-        image: "https://images.pexels.com/photos/4490129/pexels-photo-4490129.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        image: "/carepulse.png",
         tags: ["Next.js", "Tailwind CSS", "Appwrite", "Twilio"],
         links: {
             live: "https://healthcare-carepluse.vercel.app/",
@@ -49,7 +49,7 @@ export const PROJECTS = [
         title: "E-commerce Store",
         description:
             "E-commerce web application build with Next.js which allows search and buy products. Integreted Stripe payment getaway for smooter payment experience.",
-        image: "https://images.pexels.com/photos/6956903/pexels-photo-6956903.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        image: "/ecommerce.png",
         tags: ["Next.js", "Tailwind CSS", "Stripe", "Prisma ORM"],
         links: {
             live: "https://github.com/himanshu-wandhare/e-commerce-site",
